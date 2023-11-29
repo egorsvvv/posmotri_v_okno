@@ -161,7 +161,6 @@ fieldset {
   border: 1px solid #FFF;
   width: 19px;
   height: 19px;
-  position: relative;
 }
 .button {
   font-family: 'Fira Sans Condensed' , sans-serif;
@@ -216,13 +215,13 @@ input:focus {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
   display: block;
+  justify-content:center;
   align-items: center;
   width: 15px;
   height: 15px;
   background-color: #FFF;
-  position: absolute;
-  bottom: 1px;
-  right: 1px;
+  margin-top: 1.4px;
+  margin-left: 1.4px;
 }
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
