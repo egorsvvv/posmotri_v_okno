@@ -67,10 +67,14 @@ ol {
   flex-direction: column;
   flex-grow: 1;
 }
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .result__video-container {
   position: relative;
   width: 711px;
-  padding-bottom: 16px;
 }
 .result__video {
   width: 100%;
@@ -142,7 +146,18 @@ fieldset {
   border: none;
 }
 .search-form__label {
+  display: inline-flex;
+  gap: 5px;
   width: fit-content;
+  appearance: none;
+}
+.search-form__label-text {
+  margin-right: 15px;
+}
+.search-form__pseudo-checkbox {
+  border: 1px solid #FFF;
+  width: 19px;
+  height: 19px;
 }
 .button {
   font-family: 'Fira Sans Condensed' , sans-serif;
@@ -161,6 +176,7 @@ fieldset {
   margin-top: 20px;
 }
 .more-button {
+  margin-top: 30px;
   width: 382px;
   height: 34px;
 }
