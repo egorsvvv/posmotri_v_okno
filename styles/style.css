@@ -186,6 +186,7 @@ fieldset {
   margin-top: 30px;
   width: 382px;
   height: 34px;
+  margin-left: 5px;
 }
 .search-form__fieldset {
   display: flex;
